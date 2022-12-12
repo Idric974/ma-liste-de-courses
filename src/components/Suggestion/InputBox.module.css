@@ -1,0 +1,57 @@
+.box {
+    /* border: solid black 1px; */
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    justify-content: space-between;
+    margin: 10px 0px 10px 0px;
+    border-radius: 5px;
+    padding-left: 4px;
+    padding-right: 4px;
+
+}
+
+.listItemsBox {
+    /* border: solid black 1px; */
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    justify-content: space-between;
+    margin: 10px 0px 10px 0px;
+    border-radius: 5px;
+    font-size: 1.2rem;
+}
+
+.listItemsDelete {
+    width: 25%;
+    height: 50px;
+    border-radius: 0px 10px 10px 0px;
+    cursor: pointer;
+    text-align: center;
+    font-size: 1.3rem;
+    border-left: none;
+    background-color: var(--Primary);
+    color: white;
+    border: none;
+
+}
+
+.listItemsDelete p {
+    color: white;
+    font-size: 2.5rem;
+}
+
+.inputBox {
+    /* border: solid blue 1px; */
+    width: 75%;
+
+}
+
+.inputBoxButton {
+    /* border: solid green 1px; */
+    width: 25%;
+
+}

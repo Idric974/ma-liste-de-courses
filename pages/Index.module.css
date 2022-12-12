@@ -1,0 +1,13 @@
+.box {
+    /* border: solid yellow 5px; */
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.Title {
+    text-align: center;
+    margin: 10px 0px 5px 0px;
+}

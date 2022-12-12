@@ -1,0 +1,34 @@
+.box {
+  /* border: solid black 1px; */
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  margin: 10px 0px 10px 0px;
+}
+
+.myImageBox {
+  /* border: solid red 1px; */
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  margin-top: 20px;
+}
+
+.myImage {
+  /* border: solid green 1px; */
+  width: 50%;
+}
+
+.myImageTitle {
+  /* border: solid green 1px; */
+  margin-top: 20px;
+  width: 100%;
+  font-size: 1.5rem;
+  font-weight: bolder;
+}
